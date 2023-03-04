@@ -1,0 +1,14 @@
+/*divs*/
+
+.mainDiv {
+  background-color: white;
+}
+
+/*pars*/
+
+.copyleft{
+  margin: 5px;
+  padding:0;
+  color:white;
+  font-size: 14px;
+}

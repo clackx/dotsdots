@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/*divs*/
+
+.mainDiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.playerOne {
+  width: 120px;
+  padding: 45px;
+  padding-right: 25px;
+  margin: 20px;
+  margin-top: 70px;
+  /* background-color: #77FFbb; */
+  /* background-color: #aaFFee; */
+  background-color: #ffffff;
+  border-radius: 15px;
+  border-radius: 50px 10px 50px 10px/ 280px 0px 560px 10px;
+}
+
+.playerTwo {
+  width: 120px;
+  padding: 48px;
+  padding-right: 25px;
+  margin: 20px;
+  margin-bottom: 70px;
+  /* background-color: #aaeeFF; */
+  background-color: #ffffff;
+  border-radius: 20px 100px 50px 40px / 180px 110px 60px 10px;
+}
+
+
+/*pars*/
+
+.pOneH {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  color: #44bb77;
+  font-family: 'Comfortaa';
+}
+
+.pOne {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #44bb77;
+  font-family: 'Comfortaa';
+}
+
+.pTwoH {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  color: #4477bb;
+  font-family: 'Comfortaa';
+}
+
+.pTwo {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #4477bb;
+  font-family: 'Comfortaa';
+}
+
+.blank {
+  margin: 10px;
+}

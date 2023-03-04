@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/*divs*/
+
+.playerOneDiv {
+  width: 220px;
+  padding: 10px;
+  background-color: #66FFaa;
+  border-radius: 15px;
+  border-radius: 100px 10px / 120px;
+}
+
+.playerTwoDiv {
+  width: 220px;
+  padding: 10px;
+  background-color: #66aaFF;
+  border-radius: 10px 100px / 120px;
+}
+
+.mainDiv {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.centerDiv {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 25px;
+  align-items: center;
+  justify-content: center
+}
+
+.yourDiv {
+  padding: 5px;
+  width: 270px;
+  margin-left: 25px
+}
+
+.blankDiv {
+  width: 220px;
+  height: 70px;
+}
+
+.moveDiv {
+  width: 120px;
+  padding: 5px
+}
+
+.joinDiv {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.tr {
+  width: 300px;
+  margin-right: 25px;
+  text-align: right;
+}
+
+
+/*pars*/
+
+.specPar {
+  color: #FFaa66;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa';
+}
+
+
+.pOnePar {
+  color: #449922;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa';
+}
+
+.pTwoPar {
+  color: #224499;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa';
+}
+
+
+.move {
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Comfortaa';
+}
+
+.playerMove {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa';
+}
+
+
+.specCount {
+  font-size: 16px;
+  color: #FFaa66;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa';
+}
