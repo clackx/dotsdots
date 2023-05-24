@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import { TGameObj, TStatsObj } from '../../server/dist/exp-types';
+import { TGameObj, TStatsObj } from '../types';
 import styles from '../styles/Title.module.css';
 import СlipboardButton from "./ClipboardButton";
 import { SocketContext } from './SocketProvider';

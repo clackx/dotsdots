@@ -1,10 +1,10 @@
 import React, { createContext, ReactNode, useEffect, useState } from 'react';
-import { TGameObj } from '../../server/dist/exp-types';
+import { TGameObj } from '../types';
 import { config } from './Constants';
 import { io, Socket } from 'socket.io-client';
 const back_url = config.url.BACKEND_URL
 
-import { TStatsObj } from '../../server/dist/exp-types';
+import { TStatsObj } from '../types';
 
 export type SocketContextValue = {
   socket: Socket | undefined,

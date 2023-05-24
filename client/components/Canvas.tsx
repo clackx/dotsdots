@@ -1,6 +1,6 @@
 import { observer } from "mobx-react-lite";
 import { useContext, useEffect, useRef, useState } from 'react';
-import { TFieldObj, TMoveObj, TPath_, TPair_ } from '../../server/dist/exp-types';
+import { TFieldObj, TMoveObj, TPath_, TPair_ } from '../types';
 import styles from '../styles/Canvas.module.css';
 import { SocketContext } from './SocketProvider';
 
